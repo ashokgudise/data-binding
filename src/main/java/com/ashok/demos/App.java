@@ -18,6 +18,8 @@ public class App {
         //Data Initialization
         List<Contract> contracts = app.populateData();
 
+        //Java 7 Approach...
+        
         //Set to Check Duplicates
         Set<Address> addressCheck = new HashSet<>();
         //List to Return as Output
